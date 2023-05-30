@@ -10,8 +10,8 @@ const firebaseConfig = {
     appId: "1:207565698957:web:a9b6b57520a924b9cd2fc4"
 };
 
-const popQuestion = "What is the best season?"
-const popAnswers = ["Spring", "Summer", "Fall", "Winter"]
+const popQuestion = "Tacos or Burritos?"
+const popAnswers = ["Tacos", "Burritos"]
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
