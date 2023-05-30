@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans&family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    background-color:rgb(205, 228, 236);
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+table {
+    background-color: rgb(149, 187, 199);
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-collapse: collapse;
+}
+
+th {
+    padding: .75rem
+}
+
+td {
+    border-top: 3px solid rgb(93, 118, 126);
+    padding: .5rem;
+}
+
+.question-section {
+    background-color: rgb(149, 187, 199);
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+
+.option {
+    background-color: azure;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+.option:hover {
+    opacity: .75;
+}
+
+.option.selected {
+    background-color:lightblue;
+    font-weight: 700;
+}
+
+.option.selected::after {
+    content: " - X";
+}
+
+.option:first-of-type {
+    border-radius: 15px 15px 3px 3px;
+}
+
+.option:last-of-type {
+    border-radius: 3px 3px 15px 15px;
+}
+
+.live-row {
+    background-color: azure;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+.live-header {
+    background-color: rgb(149, 187, 199);
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.live-row:first-of-type {
+    border-radius: 15px 15px 3px 3px;
+}
+
+.live-row:last-of-type {
+    border-radius: 3px 3px 15px 15px;
+}
+
+.live-display {
+    max-width: 600px;
+    margin: auto;
+}
