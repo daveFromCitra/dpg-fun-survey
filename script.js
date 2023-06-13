@@ -10,8 +10,8 @@ const firebaseConfig = {
     appId: "1:207565698957:web:a9b6b57520a924b9cd2fc4"
 };
 
-const popQuestion = "What superpower with a catch would you prefer?"
-const popAnswers = ["Invisible, but only with your eyes closed", "You can fly as long as you can hold your breath", "You can read minds, but only when you're touching the person's forehead with yours.", "You can walk through some walls. But only running high speed and no way to tell which.", "You can talk to fish, but not breath underwater."]
+const popQuestion = "Who has the best fries???"
+const popAnswers = ["McDonalds", "Burger King", "In n' Out", "Wendy's", "Jack in the Box (Curly Fires)", "Chic Fil A", "Taco Bell (Nacho Fires)"]
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
