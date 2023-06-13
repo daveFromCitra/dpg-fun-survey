@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 const popQuestion = "Who has the best fries???"
-const popAnswers = ["McDonalds", "Burger King", "In n' Out", "Wendy's", "Jack in the Box (Curly Fires)", "Chic Fil A", "Taco Bell (Nacho Fires)"]
+const popAnswers = ["McDonalds", "Burger King", "In n' Out", "Wendy's", "Jack in the Box (Curly Fires)", "Chick Fil A", "Taco Bell (Nacho Fires)"]
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
