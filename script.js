@@ -10,8 +10,8 @@ const firebaseConfig = {
     appId: "1:207565698957:web:a9b6b57520a924b9cd2fc4"
 };
 
-const popQuestion = "Who has the best fries???"
-const popAnswers = ["McDonalds", "Burger King", "In n' Out", "Wendy's", "Jack in the Box (Curly Fires)", "Chick Fil A", "Taco Bell (Nacho Fires)"]
+const popQuestion = "What is your spirit animal?"
+const popAnswers = ["Wolf", "Bear", "Eagle", "Fox", "Owl", "Lion", "Hawk/Falcon", "Dolphin", "Butterfly", "Deer", "Otter", "Snake", "Lizard", "Salamandar", "Gator", "Shark", "Dragon", "Dave Grohl"]
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
