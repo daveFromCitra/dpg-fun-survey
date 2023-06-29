@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 const popQuestion = "What is your spirit animal?"
-const popAnswers = ["Wolf", "Bear", "Eagle", "Fox", "Owl", "Lion", "Hawk/Falcon", "Dolphin", "Butterfly", "Deer", "Otter", "Snake", "Lizard", "Flamingo", "Salamandar", "Gator", "Shark", "Dragon", "Dave Grohl"]
+const popAnswers = ["Wolf", "Bear", "Eagle", "Fox", "Owl", "Lion", "Hawk/Falcon", "Dolphin", "Butterfly", "Deer", "Otter", "Snake", "Lizard", "Flamingo", "Salamandar", "Gator", "Shark", "Capybara", "Dragon", "Dave Grohl"]
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
