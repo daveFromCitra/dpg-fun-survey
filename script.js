@@ -10,8 +10,22 @@ const firebaseConfig = {
     appId: "1:207565698957:web:a9b6b57520a924b9cd2fc4"
 };
 
-const popQuestion = "What is your spirit animal?"
-const popAnswers = ["Wolf", "Bear", "Eagle", "Fox", "Owl", "Lion", "Hawk/Falcon", "Dolphin", "Butterfly", "Deer", "Otter", "Snake", "Lizard", "Flamingo", "Salamandar", "Gator", "Shark", "Capybara", "Dragon", "Dave Grohl"]
+// const popQuestion = "What is your spirit animal?"
+// const popAnswers = ["Wolf", "Bear", "Eagle", "Fox", "Owl", "Lion", "Hawk/Falcon", "Dolphin", "Butterfly", "Deer", "Otter", "Snake", "Lizard", "Flamingo", "Salamandar", "Gator", "Shark", "Capybara", "Dragon", "Dave Grohl"]
+
+const popQuestion = "Which conspiracy theory sounds the most plausible? (Remember this is a silly survey and not to be taken seriously)"
+const popAnswers = [
+"Moon landing is fake",
+"Earth is flat",
+"Government knows about aliens",
+"Illuminati controls the weather",
+"Shape shifting lizard people run the government",
+"Ancient Aliens built the pyramids.",
+"Paul McCartney died and was replaced by a look alike.",
+"Bigfoot exists and owns controlling interest in REI",
+"None, these are ridiculous.",
+"None, these are just distractions from what’s really going on! Wake up sheeple!!!"
+]
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
