@@ -165,7 +165,7 @@ function liveDisplayVotesTable(category) {
             }
             // Places the HTML table data into the DOM
             displayTable.innerHTML = voteTableContent
-            setTimeout(liveDisplayVotesTable, 10000)
+            setTimeout(liveDisplayVotesTable, 50000)
         })
         .catch((error) => console.error(error))
     
