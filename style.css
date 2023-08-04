@@ -102,3 +102,11 @@ td {
     max-width: 600px;
     margin: auto;
 }
+
+span.esp-question {
+    color: darkred;
+}
+
+span.esp-answer {
+    color: red;
+}
