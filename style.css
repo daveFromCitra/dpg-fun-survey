@@ -104,9 +104,13 @@ td {
 }
 
 span.esp-question {
-    color: darkred;
+    color: darkgreen;
+    display: block;
+    font-style: italic;
 }
 
 span.esp-answer {
-    color: red;
+    color: darkgreen;
+    display: block;
+    font-style: italic;
 }
