@@ -27,14 +27,14 @@ const firebaseConfig = {
 // "None, these are just distractions from what’s really going on! Wake up sheeple!!!"
 // ]
 
-const popQuestion = "Summer Vacation Destinations: Where Would You Rather Be? <span class='esp-question'>Destinos para Vacaciones de Verano: Donde Preferirias Estar?</span>"
+const popQuestion = "Which fictional character would make the best office colleague? <span class='esp-question'>Que personaje ficticio seria el mejor colega de oficina?</span>"
 const popAnswers = [
-    "Tropical Paradise: Relaxing on the beautiful beaches of the Maldives, Bali, or Hawaii and enjoying the crystal-clear waters and white sandy beaches while watching the palm trees swaying gently in the breeze. <span class='esp-answer'>Paraiso Tropical: Relajandote en una hermosa playa disfrutando de las aguas cristalinas y playas de arena.</span>",
-    "Adventure Seeker: Embarking on thrilling adventures like bungee jumping in New Zealand, zip-lining through the rainforests of Costa Rica, or hiking and skiing through the Swiss Alps. <span class='esp-answer'>Buscador de Aventuras: Aventuras como salto en bungee, tirolesa de la selva tropical o senderismo en las montañas.</span>",
-    "Historical and Cultural Explorers: Learning about our world by visiting historically and culturally-rich destinations like Italy for its ancient ruins, Greece for its mythology, or Japan for its traditional temples and tea ceremonies. <span class='esp-answer'>Exploradores Históricos y Culturales: Aprendiendo sobre nuestro mundo visitando destinos con una rica historia cultural.</span>",
-    "City Escapes: Relishing in the hustle and bustle of destination cities like New York City for its iconic landmarks, Paris for its romantic ambiance, or London for its royal grandeur. <span class='esp-answer'>Escapadas a la Ciudad: Disfrutando ciudades como Nueva York por sus icónicos lugares, Paris por su ambiente romantico, o visitar Los Angeles por sus atracciones turisticas.</span>",
-    "Nature Retreats: Practicing solitude and connection with nature by taking in the serene landscapes of the Swiss countryside, hiking through the awe-inspiring wilderness of the Canadian Rockies, or appreciating the tranquil and mystical experience of the Norwegian fjords. <span class='esp-answer'>Refugios Naturales: Practicando la soledad y conexion con la naturaleza disfrutando de los serenos paisajes del campo o haciendo senderismo por la naturaleza salvaje.</span>",
-    "Staycation: Keeping it low-key by visiting close-to-home national parks, lakes, and resorts…or just staying home. <span class='esp-answer'>Vacaciones en Casa: Manteniendolo tranquilo visitando parques nacionales, lagos o resorts cercanos a casa o simplemente quedandote en casa.</span>"
+    " <span class='esp-answer'></span>",
+    "Sherlock Holmes - Master of Problem Solving <span class='esp-answer'>Maestro de la resolucion de problemas</span>",
+    "Hermione Granger - The Ultimate Multi-Tasker <span class='esp-answer'> la multitarea definitiva</span>",
+    "Tony Stark (Iron Man) - Tech Guru Extraordinaire <span class='esp-answer'>Guru tecnologico extraordinario</span>",
+    "Leslie Knope - Office Cheerleader and Organizer <span class='esp-answer'>Animadora y organizadora de la oficina</span>",
+    "The Doctor (Doctor Who) - Time-Traveling Troubleshooter <span class='esp-answer'>Solucionador de problemas de viaje en el tiempo</span>",
 ]
 
 
