@@ -27,16 +27,12 @@ const firebaseConfig = {
 // "None, these are just distractions from what’s really going on! Wake up sheeple!!!"
 // ]
 
-const popQuestion = "Which fictional character would make the best office colleague? <span class='esp-question'>Que personaje ficticio seria el mejor colega de oficina?</span>"
+const popQuestion = "Time to settle the debate: Is a hot dog a sandwich? <span class='esp-question'>¡Hora de resolver el debate: ¿Es un hot dog un sándwich?</span>"
 const popAnswers = [
-    " <span class='esp-answer'></span>",
-    "Sherlock Holmes - Master of Problem Solving <span class='esp-answer'>Maestro de la resolucion de problemas</span>",
-    "Hermione Granger - The Ultimate Multi-Tasker <span class='esp-answer'> la multitarea definitiva</span>",
-    "Tony Stark (Iron Man) - Tech Guru Extraordinaire <span class='esp-answer'>Guru tecnologico extraordinario</span>",
-    "Leslie Knope - Office Cheerleader and Organizer <span class='esp-answer'>Animadora y organizadora de la oficina</span>",
-    "The Doctor (Doctor Who) - Time-Traveling Troubleshooter <span class='esp-answer'>Solucionador de problemas de viaje en el tiempo</span>",
+    "Absolutely, it's a sandwich! <span class='esp-answer'>¡Claro, es un sándwich!</span>",
+    "Nope, it's a category of its own! <span class='esp-answer'> ¡No, es una categoría única!</span>",
+    "I'm still pondering this culinary conundrum. <span class='esp-answer'Aún estoy reflexionando sobre este enigma culinario.</span>",
 ]
-
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
