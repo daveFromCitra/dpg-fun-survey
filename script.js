@@ -31,7 +31,7 @@ const popQuestion = "Time to settle the debate: Is a hot dog a sandwich? <span c
 const popAnswers = [
     "Absolutely, it's a sandwich! <span class='esp-answer'>¡Claro, es un sándwich!</span>",
     "Nope, it's a category of its own! <span class='esp-answer'> ¡No, es una categoría única!</span>",
-    "I'm still pondering this culinary conundrum. <span class='esp-answer'Aún estoy reflexionando sobre este enigma culinario.</span>",
+    "I'm still pondering this culinary conundrum. <span class='esp-answer'>Aún estoy reflexionando sobre este enigma culinario.</span>",
 ]
 
 const app = initializeApp(firebaseConfig)
