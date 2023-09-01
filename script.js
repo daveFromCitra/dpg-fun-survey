@@ -27,11 +27,13 @@ const firebaseConfig = {
 // "None, these are just distractions from what’s really going on! Wake up sheeple!!!"
 // ]
 
-const popQuestion = "Time to settle the debate: Is a hot dog a sandwich? <span class='esp-question'>¡Hora de resolver el debate: ¿Es un hot dog un sándwich?</span>"
+const popQuestion = "If you had a time machine, which era would you most want to visit for a day? <span class='esp-question'>Si tuvieras una máquina del tiempo, ¿a qué época te gustaría visitar por un día?</span>"
 const popAnswers = [
-    "Absolutely, it's a sandwich! <span class='esp-answer'>¡Claro, es un sándwich!</span>",
-    "Nope, it's a category of its own! <span class='esp-answer'> ¡No, es una categoría única!</span>",
-    "I'm still pondering this culinary conundrum. <span class='esp-answer'>Aún estoy reflexionando sobre este enigma culinario.</span>",
+    "The Roaring Twenties <span class='esp-answer'>Los Años Locos (Década de 1920)</span>",
+    "The Age of Dinosaurs <span class='esp-answer'>La Era de los Dinosaurios</span>",
+    "The Future <span class='esp-answer'>El Futuro</span>",
+    "Ancient Egypt <span class='esp-answer'>El Antiguo Egipto</span>",
+    "The Renaissance <span class='esp-answer'>El Renacimiento</span>",
 ]
 
 const app = initializeApp(firebaseConfig)
