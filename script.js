@@ -27,13 +27,19 @@ const firebaseConfig = {
 // "None, these are just distractions from what’s really going on! Wake up sheeple!!!"
 // ]
 
-const popQuestion = "If you had a time machine, which era would you most want to visit for a day? <span class='esp-question'>Si tuvieras una máquina del tiempo, ¿a qué época te gustaría visitar por un día?</span>"
+// const popQuestion = "If you had a time machine, which era would you most want to visit for a day? <span class='esp-question'>Si tuvieras una máquina del tiempo, ¿a qué época te gustaría visitar por un día?</span>"
+// const popAnswers = [
+//     "The Roaring Twenties <span class='esp-answer'>Los Años Locos (Década de 1920)</span>",
+//     "The Age of Dinosaurs <span class='esp-answer'>La Era de los Dinosaurios</span>",
+//     "The Future <span class='esp-answer'>El Futuro</span>",
+//     "Ancient Egypt <span class='esp-answer'>El Antiguo Egipto</span>",
+//     "The Renaissance <span class='esp-answer'>El Renacimiento</span>",
+// ]
+
+const popQuestion = "Are you Apple or Samsung?"
 const popAnswers = [
-    "The Roaring Twenties <span class='esp-answer'>Los Años Locos (Década de 1920)</span>",
-    "The Age of Dinosaurs <span class='esp-answer'>La Era de los Dinosaurios</span>",
-    "The Future <span class='esp-answer'>El Futuro</span>",
-    "Ancient Egypt <span class='esp-answer'>El Antiguo Egipto</span>",
-    "The Renaissance <span class='esp-answer'>El Renacimiento</span>",
+    "Apple",
+    "Samsung"
 ]
 
 const app = initializeApp(firebaseConfig)
