@@ -40,20 +40,13 @@ const popQuestion = `What's your go-to playlist for boosting productivity?
 <span class='esp-question'>¿Cuál es tu lista de reproducción de referencia para aumentar la productividad?</span>`
 
 const popAnswers = [
-`Classic Rock Anthems
-<span class='esp-answer'>Himnos del rock clásico</span>`,
-`Smooth Jazz
-<span class='esp-answer'>Jazz suave</span>`,
-`Pop Hits of the 80s
-<span class='esp-answer'>Éxitos pop de los años 80</span>`,
-`Lo-fi Beats
-<span class='esp-answer'>Ritmos lo-fi</span>`,
-`Indie Folk Vibes
-<span class='esp-answer'>Ambiente de folk indie</span>`,
-`Podcasts and Audiobooks
-<span class='esp-answer'>Podcasts y audiolibros</span>`,
-`Silence, please!
-<span class='esp-answer'>¡Silencio, por favor!</span>`
+"Classic Rock Anthems <span class='esp-answer'>Himnos del rock clásico</span>",
+"Smooth Jazz <span class='esp-answer'>Jazz suave</span>",
+"Pop Hits of the 80s <span class='esp-answer'>Éxitos pop de los años 80</span>",
+"Lo-fi Beats <span class='esp-answer'>Ritmos lo-fi</span>",
+"Indie Folk Vibes <span class='esp-answer'>Ambiente de folk indie</span>",
+"Podcasts and Audiobooks <span class='esp-answer'>Podcasts y audiolibros</span>",
+"Silence, please! <span class='esp-answer'>¡Silencio, por favor!</span>"
 ]
 
 const app = initializeApp(firebaseConfig)
