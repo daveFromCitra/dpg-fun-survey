@@ -36,18 +36,19 @@ const firebaseConfig = {
 //     "The Renaissance <span class='esp-answer'>El Renacimiento</span>",
 // ]
 
-const popQuestion = `What's your go-to playlist for boosting productivity?
-<span class='esp-question'>¿Cuál es tu lista de reproducción de referencia para aumentar la productividad?</span>`
+const popQuestion = "What's your favorite way to recharge during a break at work?<span class='esp-question'>¿Cuál es tu forma favorita de recargar energías durante un descanso en el trabajo?</span>"
 
 const popAnswers = [
-"Classic Rock Anthems <span class='esp-answer'>Himnos del rock clásico</span>",
-"Smooth Jazz <span class='esp-answer'>Jazz suave</span>",
-"Pop Hits of the 80s <span class='esp-answer'>Éxitos pop de los años 80</span>",
-"Lo-fi Beats <span class='esp-answer'>Ritmos lo-fi</span>",
-"Indie Folk Vibes <span class='esp-answer'>Ambiente de folk indie</span>",
-"Podcasts and Audiobooks <span class='esp-answer'>Podcasts y audiolibros</span>",
-"Silence, please! <span class='esp-answer'>¡Silencio, por favor!</span>"
+"Coffee or tea break with coworkers <span class='esp-answer'>Descanso con café o té junto a tus compañeros de trabajo</span>",
+"Quick power nap in your car <span class='esp-answer'>Una rápida siesta en tu auto</span>",
+"Outdoor walk to get some fresh air <span class='esp-answer'>Paseo al aire libre para tomar aire fresco</span>",
+"Playing a quick game or puzzle on your phone <span class='esp-answer'>Jugar un juego rápido o resolver un rompecabezas en tu teléfono</span>",
+"Listening to your favorite music or podcast <span class='esp-answer'>Escuchar tu música o podcast favorito</span>",
+"None of the above – I'm always recharged! <span class='esp-answer'>Ninguna de las anteriores, ¡siempre estoy recargado/a!</span>"
 ]
+
+
+
 
 const app = initializeApp(firebaseConfig)
 const db = getFirestore()
