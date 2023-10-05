@@ -36,15 +36,12 @@ const firebaseConfig = {
 //     "The Renaissance <span class='esp-answer'>El Renacimiento</span>",
 // ]
 
-const popQuestion = "What's your favorite way to recharge during a break at work?<span class='esp-question'>¿Cuál es tu forma favorita de recargar energías durante un descanso en el trabajo?</span>"
+const popQuestion = "What kind of Halloween costume do you prefer? <span class='esp-question'>¿Qué tipo de disfraz de Halloween prefieres?</span>"
 
 const popAnswers = [
-"Coffee or tea break with coworkers <span class='esp-answer'>Descanso con café o té junto a tus compañeros de trabajo</span>",
-"Quick power nap in your car <span class='esp-answer'>Una rápida siesta en tu auto</span>",
-"Outdoor walk to get some fresh air <span class='esp-answer'>Paseo al aire libre para tomar aire fresco</span>",
-"Playing a quick game or puzzle on your phone <span class='esp-answer'>Jugar un juego rápido o resolver un rompecabezas en tu teléfono</span>",
-"Listening to your favorite music or podcast <span class='esp-answer'>Escuchar tu música o podcast favorito</span>",
-"None of the above – I'm always recharged! <span class='esp-answer'>Ninguna de las anteriores, ¡siempre estoy recargado/a!</span>"
+"Spooky Costumes  - Frankenstein, Vampire, Fredy Krugger, ect. <span class='esp-answer'>Disfraces espeluznantes - Frankenstein, Vampiro, Freddy Krueger, etc</span>",
+"Silly - A man riding an ostrich, A President, Santa Claus,  ect. <span class='esp-answer'>Tontos - Un hombre montando un avestruz, Un presidente, Santa Claus, etc</span>",
+"Cute costumes- Pumpkin, Bumblebee Cat,  ect. <span class='esp-answer'>Disfraces lindos - Calabaza, Abejorro, Gato, etc</span>"
 ]
 
 
